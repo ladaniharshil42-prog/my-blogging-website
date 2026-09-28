@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Games - GameZone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            🎮 Game<span>Zone</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <section class="page-title">
+
+        <h1>Games</h1>
+
+        <p>
+            Explore our popular games.
+        </p>
+
+    </section>
+
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search for a game..."
+            onkeyup="searchGame()">
+
+    </div>
+
+
+    <section class="games-section">
+
+        <div class="game-grid">
+
+
+            <div class="game-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1607513746994-51f730a44832?auto=format&fit=crop&w=800&q=80"
+                    alt="Minecraft">
+
+                <div class="game-content">
+
+                    <small>SANDBOX</small>
+
+                    <h2>Minecraft</h2>
+
+                    <p>
+                        Build, explore and survive in
+                        a creative block-based world.
+                    </p>
+
+                    <button onclick="showGame('Minecraft')">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80"
+                    alt="Valorant">
+
+                <div class="game-content">
+
+                    <small>FPS</small>
+
+                    <h2>Valorant</h2>
+
+                    <p>
+                        A tactical shooting game based
+                        on teamwork and strategy.
+                    </p>
+
+                    <button onclick="showGame('Valorant')">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80"
+                    alt="FIFA">
+
+                <div class="game-content">
+
+                    <small>SPORTS</small>
+
+                    <h2>FIFA</h2>
+
+                    <p>
+                        Enjoy football gameplay and
+                        compete with teams around the world.
+                    </p>
+
+                    <button onclick="showGame('FIFA')">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&w=800&q=80"
+                    alt="PUBG">
+
+                <div class="game-content">
+
+                    <small>BATTLE ROYALE</small>
+
+                    <h2>PUBG</h2>
+
+                    <p>
+                        Battle against other players and
+                        try to become the last player standing.
+                    </p>
+
+                    <button onclick="showGame('PUBG')">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="logo">
+            🎮 Game<span>Zone</span>
+        </div>
+
+        <p>© 2026 GameZone | Gaming Blog</p>
+
+        <p>Made using HTML, CSS and JavaScript</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
